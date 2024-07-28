@@ -12,7 +12,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ReactClone">
   <I18nextProvider i18n={i18n}>
     <App />
   </I18nextProvider>

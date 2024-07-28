@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactClone/static/css/main.cbe90f13.css",
-    "main.js": "/ReactClone/static/js/main.89d60ac2.js",
+    "main.js": "/ReactClone/static/js/main.869bbcc4.js",
     "static/js/453.ad6eb26e.chunk.js": "/ReactClone/static/js/453.ad6eb26e.chunk.js",
     "static/media/vid.mp4": "/ReactClone/static/media/vid.16aec6de1228209ee5d6.mp4",
     "static/media/fa-solid-900.ttf": "/ReactClone/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -43,11 +43,11 @@
     "static/media/dropdown.svg": "/ReactClone/static/media/dropdown.b825984e45a9e7c7ae9a13fa6a3e1df7.svg",
     "static/media/getFetch.cjs": "/ReactClone/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.cbe90f13.css.map": "/ReactClone/static/css/main.cbe90f13.css.map",
-    "main.89d60ac2.js.map": "/ReactClone/static/js/main.89d60ac2.js.map",
+    "main.869bbcc4.js.map": "/ReactClone/static/js/main.869bbcc4.js.map",
     "453.ad6eb26e.chunk.js.map": "/ReactClone/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe90f13.css",
-    "static/js/main.89d60ac2.js"
+    "static/js/main.869bbcc4.js"
   ]
 }

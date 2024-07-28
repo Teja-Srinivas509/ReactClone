@@ -1,0 +1,13 @@
+{
+    "login-name": "आपका नाम",
+    "login-email": "ईमेल",
+    "login-password": "पासवर्ड",
+    "login-signin": "साइन इन करें",
+    "login-signup": "साइन अप करें",
+    "login-remember": "मुझे याद रखें",
+    "login-needHelp": "मदद चाहिए",
+    "login-new": "Netflix में नया",
+    "login-signupNow": "अभी साइन अप करें",
+    "login-already": "पहले से खाता है?",
+    "login-signinNow": "अभी साइन इन करें"
+}

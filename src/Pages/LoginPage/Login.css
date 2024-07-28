@@ -1,0 +1,128 @@
+.login{
+    height:110vh;
+    background-image: linear-gradient(#0000007e,#0000007e),url('../../assets/bgimg.jpg');
+    padding:20px 8%;
+}
+.login .logo{
+    width:20%;
+}
+.login-form{
+     width:100%;
+     max-width: 450px;
+     background: rgba(0,0,0,0.75);
+     padding: 46px;
+     margin:auto;
+     border-radius: 4px;
+}
+.login-form h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.login-form input{
+    width:100%;
+    height:50px;
+    background-color: #333;
+    color: white;
+    margin:12px 0;
+    border:0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-size: 1.2rem;
+}
+.login-form input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-form button{
+    width:100%;
+    border:0;
+    outline: 0;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top:20px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+}
+.help {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color:#b3b3b3;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.remember input{
+    width:20px;
+    height:20px;
+}
+.switch{
+    margin-top:40px;
+    color: #73737373;
+}
+.switch span{
+    color:white;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 6px;
+}
+.login .lang{
+    position: relative;
+}
+.login .lang select{
+    outline: none;
+        background-color: rgb(16, 16, 16);
+        color: #fff;
+        padding: 14px 30px;
+        font-size: 13px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid #777;
+        margin-top:4%;
+}
+.login .lang i{
+    position: absolute;
+    text-align: center;
+    font-size: 1.2rem;
+    top:60%;
+    left: 1%;
+}
+.login-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-spinner img{
+    width:60px;
+    
+}
+@media  screen and (max-width:599px){
+    .login .logo{
+        width:35%;
+    }
+    .login {
+        background-image:none;
+        width:100%;
+    }
+    .login .login-form{
+        width: 0%;
+        min-width:100%;
+        padding: 0%;
+        margin:0%;
+    }
+    .login .lang i{
+        top:43%;
+        left: 3%;
+    }
+}

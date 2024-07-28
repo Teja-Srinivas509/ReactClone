@@ -1,0 +1,21 @@
+.Footer1{
+    max-width: 750px;
+    margin: 2% 5%;
+}
+.Footer1 h1{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 12%;
+}
+.Footer1 ul{
+    display: grid;
+    grid-template-columns: 27% 40% 41% 40%;
+    gap:26px;
+    color:#ddd;
+    margin-bottom:30px;
+    list-style: none;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 12%;
+}

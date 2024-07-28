@@ -1,0 +1,157 @@
+@media screen and (min-width:960px){
+    .Homepage{
+        width: 100%;
+    }
+    .Homepage .Footer{
+        max-width: 550px;
+        margin:0px;
+    }
+    .Homepage .Footer h1{
+        font-size: 1.8em;
+    }
+    .Homepage .Footer .footer-links{
+        font-size: 1rem;
+    }
+    .Homepage .Accordion h1{
+        font-size:1.5rem;
+        margin-top:2%
+    }
+    .Homepage .Accordion .accordion-title{
+        font-size: 1rem;
+    }
+    .Homepage .accordion-item .accordion-content.active{
+        font-size: 1.3rem;
+    }
+    .Homepage .header-content{
+        min-width:80%;
+    }
+    .Homepage .Features .text-col p{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 959.98px){
+    .Homepage .Footer{
+        max-width: 500px;
+        margin:0px;
+    }
+    .Homepage .Footer h1{
+        font-size: 1.3em;
+    }
+    .Homepage .Footer .footer-links{
+        font-size: 1rem;
+        gap:15px;
+        grid-template-columns: auto auto auto;
+    }
+    .Homepage .Accordion h1{
+        font-size:1.5rem;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .Homepage .Accordion .accordion-title{
+        font-size: 1rem;
+    }
+    .Homepage .accordion-item .accordion-content.active{
+        font-size: 1.3rem;
+    }
+    .Homepage .header-content{
+       min-width:75%;
+    }
+    .Homepage .Features .row{
+        display: inline-block;
+    }
+    .Homepage .Features .text-col p{
+        font-size: 1.4rem;
+    }  
+    .Homepage .Accordion p{
+        font-size: 1rem;
+    } 
+}
+@media  screen and (max-width:661px) {
+    .Homepage .header-content h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 4%;
+    }
+    .Homepage .header-content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5%;
+        font-weight: 500;
+    }
+    .Homepage .header-content p {
+        font-size: 1rem;
+        margin-bottom: 5%;
+        font-weight: 400;
+    }
+    .Homepage .header-content input{
+        width:100%;
+        margin-bottom: 4%;
+    }   
+    .Homepage .Header nav .icon{
+        width:24%;
+    }
+    .Homepage .Accordion input{
+        width:87%;
+        margin-bottom: 3%;
+    }
+    .Homepage .Header .lang i{
+        font-size: 1rem;
+    }
+    .Homepage nav select{
+            outline: none;
+            background-color: rgb(16, 16, 16);
+            color: #fff;
+            padding: 8px 21px;
+            font-size: 13px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 1px solid #777;
+    }
+    .Homepage nav button{
+        outline: none;
+        border: none;
+        background: #db0001;
+        color: #fff;
+        padding: 9px 18px;
+        font-size: 12px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .Homepage .Footer{
+        margin:0px;
+    }
+    .Homepage .Footer h1{
+        font-size: 1.3em;
+    }
+    .Homepage .Footer .footer-links{
+        font-size: 1rem;
+        gap:15px;
+        grid-template-columns: auto auto auto;
+    }
+    .Homepage .Accordion h1{
+        font-size:1.5rem;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .Homepage .Accordion .accordion-title{
+        font-size: 1rem;
+    }
+    .Homepage .accordion-item .accordion-content.active{
+        font-size: 1.3rem;
+    }
+    .Homepage .header-content{
+       min-width:75%;
+    }
+    .Homepage .Features .row{
+        display: inline-block;
+    }
+    .Homepage .Features .text-col p{
+        font-size: 1.4rem;
+    }  
+    .Homepage .Accordion p{
+        font-size: 1rem;
+    } 
+    .Homepage .Features .text-col{
+        text-align: center;
+    }
+}

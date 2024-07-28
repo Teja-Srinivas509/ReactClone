@@ -1,0 +1,13 @@
+{
+    "login-name":"Your Name",
+    "login-email":"Email",
+    "login-password":"Password",
+    "login-signin":"Sign In",
+    "login-signup":"Sign Up",
+    "login-remember":"Remember Me",
+    "login-needHelp":"Need Help",
+    "login-new":"New to Netflix",
+    "login-signupNow":"Sign Up Now",
+    "login-already":"Already have account?",
+    "login-signinNow":"Sign In Now"
+}

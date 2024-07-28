@@ -1,0 +1,97 @@
+.Accordion {
+    width:100%;
+    /* padding: 6%; */
+}
+.Accordion h1{
+    font-weight:700;
+    font-size: 50px;
+    text-align: center;
+    margin-top:2%;
+    margin-bottom: 25px;
+}
+.Accordion .accordion-title{
+    background-color: #222;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Accordion .accordion-title::after{
+    content: '+';
+    font-size: 2.5rem;
+    transition: transform 0.5s;
+}
+.Accordion .accordion-title.active::after{
+    transform: rotate(135deg);;
+}
+.accordion-item{
+    margin-bottom:1%;
+    cursor: pointer;
+    transition:all 0.5s ease-in;
+    padding: 0% 6%;
+    
+}
+.accordion-item .accordion-title:hover{
+    background-color: #444;
+}
+.accordion-item .accordion-content{
+    background-color: #222;
+    font-size: 1.2rem;
+    margin-top:5%;
+    overflow: hidden;
+    display: none;
+    transition: all 0.3s ease-out;
+}
+.accordion-item .accordion-content.active {
+    /* max-height: 200px; */
+    display: block;
+    opacity: 1;
+    margin-bottom: 2%;
+    line-height: 150%;
+    font-size: 1.8rem;
+    margin-top:2%;
+    background-color: #222;
+    
+}
+.Accordion form{
+    text-align: center;
+}
+.Accordion input{
+    width: 50%;
+    background-color: rgb(16, 16, 16);
+    padding: 15px 5%;
+    border: 1px solid #777;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color:#fff
+}
+.Accordion button {
+    outline: none;
+    border: none;
+    background: #db0001;
+    color: #fff;
+    padding: 15px 70px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Accordion button:hover{
+    background: rgb(229, 9, 0,0.6);
+}
+.Accordion p{
+    font-size: 1.5rem;
+    margin:3% 0%;
+    text-align: center;
+}
+hr{
+    margin:0 auto;
+    opacity: .2;
+    background-color: #777;
+    height:10px;
+    width: 100%;
+}

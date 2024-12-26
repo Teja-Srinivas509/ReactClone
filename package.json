@@ -1,12 +1,13 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage":"http://Teja-Srinivas509.github.io/ReactClone",
+  "homepage": "http://Teja-Srinivas509.github.io/ReactClone",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
     "gh-pages": "^6.1.1",
     "i18next": "^23.12.2",
     "i18next-browser-languagedetector": "^8.0.0",
@@ -20,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
